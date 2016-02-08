@@ -40,7 +40,7 @@ Linux newbie that seemed a little too far off the beaten track for me yet.
 
 Then I found that Brightbox cloud hosting have provided more up to date Ruby packages. Even I was able to follow the instructions they provide [here](https://www.brightbox.com/docs/ruby/ubuntu/)
 
-###Next Steps
+### Next Steps
 I want to keep improving this blog
 
 * Maybe add a theme
