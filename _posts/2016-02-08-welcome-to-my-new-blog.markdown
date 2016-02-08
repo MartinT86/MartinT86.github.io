@@ -9,7 +9,7 @@ Thanks for looking at my new blog.
 I wanted to start a blog to help me keep track of all the things I learn and any useful resources I have used along the way.
 If anyone else is able to find anything useful on here then all the better.
 
-###Blog platform
+### Blog platform
 So I've used blogging platforms before, such as Umbraco and Wordpress.
 I wanted my new blog to be something simple to manage and something that would make me want to write rather than working on the blog.
 So that pretty much ruled out Umbraco and Wordpress :)
@@ -24,7 +24,7 @@ So I settled on Jekyll.
 Being able to create posts in markdown looked like a massive benefit to me. Not only so all my posts would be
 nicely source controlled. Hosting the blog on github pages is also another massive plus point.
 
-###Setup
+### Setup
 After reading the docs for Jekyll i was pretty disappointed. Not in Jekyll but in Windows. Jekyll is yet another tool that is not
 fully supported on Windows.
 
