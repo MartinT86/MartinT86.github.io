@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Thanks for looking at my blog. I made it to help myself keep track of the things I learn
+but if anything on here can help anyone else that would be awesome.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+My background is primarily C# and MS-SQL so I enjoy all things Microsoft but I am enjoying 
+learning about Node and JS development. I also aim to improve my front end development
+skills.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+My main areas of experience include
+
+* C#
+* MS-SQL
+* Umbraco
+* Azure
+* IIS
+* Node
