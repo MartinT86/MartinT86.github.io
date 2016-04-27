@@ -41,8 +41,7 @@ Lesson one explains the easiest way to create an object in javascript; using obj
 
 ## Proto
 
-Lesson two goes on to explain about the &#95;_proto__ object. While not standard javascript, its good place
-to start learning about the object model.
+Lesson two goes on to explain about the &#95;_proto__ object. While usually supported, its behaviour has only been standardised in ECMAScript 6 as a legacy feature and changing an objects prototype is a very slow operation. So while its not advised to use, its good place to start learning about the object model.
 
 One object can be set as the prototype of another. This allows for the properties of the prototype to be
 available on the parent object.
