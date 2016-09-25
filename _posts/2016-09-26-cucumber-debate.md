@@ -28,7 +28,7 @@ Check out [cucumber.io](https://cucumber.io/) to get a much more detailed explan
 They provide a single source of truth of the software being created.
 Creating a single set of requirements/tests that can follow the software through the entire development life cycle.
 
-### Livin documentation
+### Living documentation
 Living documentation is another benefit that comes from using Cucumber tests. 
 If the requirements change, you will then have to change the software.
 Since you will have breaking tests you are forced to keep them (and you documentation) up to date.  
