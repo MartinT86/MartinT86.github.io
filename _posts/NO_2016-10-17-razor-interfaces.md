@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Razor view interfaces"
+title: "Razor View Interfaces"
 description: "Using interfaces for razor view models to make your views more flexible"
 tags: [Razor, MVC, NancyFx, Atomic Design]
 ---
@@ -19,7 +19,7 @@ These are split in to five sections.
 
 #### Atoms
 
-Atoms are the smallest parts of the system. They can include the styles of a button or heading for example.
+Atoms are the smallest parts of the system. They can include the styles of a button or heading.
 
 #### Molecules
 
@@ -47,5 +47,59 @@ Don't Repeat Yourself rule in development.
 
 I started thinking how the principles of Atomic Design could be applied to Razor views.
 After some experimenting I realised that you could use an interface as the model for a strongly
-typed view. This sounds like a small impact but it was news to me and opened up a possibilities.
+typed view. This sounds like a small change but it was news to me and opened up several new possibilities.
 
+#### Reusable Partials
+
+By setting the model for a partial view to be an interface rather than a class they can be more reusable.
+
+Partial view;
+
+    @model ViewInterfaces.Interfaces.ICanRenderTitleSection
+    
+    <div>
+        <h1>@Model.Title</h1>
+        <h3>@Model.SubTitle</h3>
+    </div>
+
+This partial then can be used by any model that implements that interface.
+
+Calling view;
+
+    @model ViewInterfaces.Models.HomeViewModel
+    
+    @{
+        ViewBag.Title = "Home Page";
+    }
+    
+    @Html.Partial("/Views/Partials/_TitleSection.cshtml", Model)
+
+Since the main view model is implementing all of the small interfaces required for the small partials, 
+the partials are easily composable. As with Atomic Design the partials can reflect the organisms, 
+molecules and atoms.
+
+Interface;
+
+    namespace ViewInterfaces.Interfaces
+    {
+        public interface ICanRenderTitleSection
+        {
+            string Title { get; set; }
+            string SubTitle { get; set; }
+        }
+    }
+
+#### Small Interfaces
+
+It is better to have your main view model to implement many small interfaces rather than one large one 
+your model will be more flexible.
+
+By following the Interface Segregation principle from the SOLID principles you are giving clear 
+instructions on what partials the model can be used for and showing clear intent.
+
+I've also found that it can help when it comes to using the model in the partial. Any properties on the 
+view model that aren't needed for that partial won't be accessible due to using the interface.
+
+## Example
+
+You can check my MVC example on [GitHub](https://github.com/MartinT86/ViewInterfaces)
