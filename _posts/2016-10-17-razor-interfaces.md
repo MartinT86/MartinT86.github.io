@@ -38,7 +38,7 @@ A template is the framework for a page and how it will look when the organisms a
 
 #### Pages
 
-Once the template is populatd with final content the page is then complete.
+Once the template is populated with final content the page is then complete.
 
 I found this concept of breaking down designs brilliant and it really reminded me of the 
 Don't Repeat Yourself rule in development.
@@ -92,7 +92,7 @@ Interface;
 #### Small Interfaces
 
 It is better to have your main view model to implement many small interfaces rather than one large one 
-your model will be more flexible.
+to help your model will be more flexible.
 
 By following the Interface Segregation principle from the SOLID principles you are giving clear 
 instructions on what partials the model can be used for and showing clear intent.
@@ -102,4 +102,4 @@ view model that aren't needed for that partial won't be accessible due to using 
 
 ## Example
 
-You can check my MVC example on [GitHub](https://github.com/MartinT86/ViewInterfaces)
+You can check out my MVC example on [GitHub](https://github.com/MartinT86/ViewInterfaces)
