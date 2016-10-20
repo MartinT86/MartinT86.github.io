@@ -27,8 +27,12 @@ you can turn a digital experience in to a physical one.
 ## Time to get the scissors out
 
 On the instructions is a template for the prism to print and cut out of clear plastic.
+I was able to find a laminator pocket which I put through the machine while empty. Not the clearest 
+plastic in the world but seemed to work ok for this.
+
 From my experience I would make the template a little bigger than the instructions state. 
-I found this made the prism a little easier to stand up.
+I found this made the prism a little easier to stand up. Making the tab to stick the prism together
+bigger than the template suggests helps as well.
 
 ## How it works
 
