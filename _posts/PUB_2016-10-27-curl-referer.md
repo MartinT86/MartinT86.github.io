@@ -7,3 +7,12 @@ tags: [curl]
 
 tagline
 
+## My curl posts
+
+## What is curl
+
+## Why I like curl
+
+## Referer option
+
+## Using the Referer option to debug.net
