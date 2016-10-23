@@ -13,8 +13,8 @@ I felt like I was in Star Trek.
 
 <div class="center">
 <figure>
-	<a href="{{ site.url }}/images/hologram.jog"><img src="{{ site.url }}/images/hologram.jpg" alt="my diy hologram"></a>
-	<figcaption>My DIY hologram</figcaption>
+	<a href="{{ site.url }}/images/hologram-hotdog.jog"><img src="{{ site.url }}/images/hologram-hotdog.jpg" alt="a hologram hotdog"></a>
+	<figcaption>My DIY hologram hotdog</figcaption>
 </figure>
 </div>
 
@@ -33,6 +33,13 @@ plastic in the world but seemed to work ok for this.
 From my experience I would make the template a little bigger than the instructions state. 
 I found this made the prism a little easier to stand up. Making the tab to stick the prism together
 bigger than the template suggests helps as well.
+
+<div class="center">
+<figure>
+	<a href="{{ site.url }}/images/hologram-deer.jog"><img src="{{ site.url }}/images/hologram-deer.jpg" alt="a hologram hotdog"></a>
+	<figcaption>And a hologram deer</figcaption>
+</figure>
+</div>
 
 ## How it works
 
