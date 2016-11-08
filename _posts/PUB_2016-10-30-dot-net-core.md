@@ -34,6 +34,17 @@ need app.usemvc
         "Microsoft.AspNetCore.Mvc": "1.0.1",
         "Microsoft.Extensions.DependencyInjection": "1.0.0",
 
+### models
+
+referencing model in Razor
+using a service with DependencyInjection
+
+### vscode refactoring
+
+eg. implement interface
+ctor
+rename = f2 (not effect views)
+remove unused usings
 
 ## examples
 
