@@ -25,7 +25,7 @@ According to Microsoft, there a lot benefits from moving to the new framework.
 
 [ASP.NET Core Introduction](https://docs.asp.net/en/latest/intro.html)
 
-Some of the main benefits that made me want to try out include;
+Some of the main benefits that made me want to try it out include;
 
 * Lightweight, modular system
 * Cross platform (yes, that's right, it runs on Linux and Mac!)
@@ -62,7 +62,7 @@ Overall, things went pretty smoothly but there were definitely some head banging
 
 The tutorials weren't a great deal of help either as they wanted you to use the Visual Studio templates. Something I was avoiding as I wanted to get it working with the minimal amount of boilerplate/templating I could.
 
-### controllers
+### Controller
 
 After running the initializer, a controller was my first step.
 
@@ -71,7 +71,7 @@ Rather than a nice tutorial to use I had to bounce about the docs for a while.
 
 A couple of things are needed to get the controller to work.
 
-### Startup.cs
+#### Startup.cs
 
 In an ASP.NET Core program you can use an optional startup configuration file.
 
@@ -88,33 +88,55 @@ I decided to go for this option;
 
 but you also have the option of using attribute based routing;
 
-
-
-not working to start with
-need configure services method
-need app.usemvc
-
-        "Microsoft.AspNetCore.Mvc": "1.0.1",
-        "Microsoft.Extensions.DependencyInjection": "1.0.0",
+    [Route("Home/Index")]
+    public IActionResult Index()
+    {
+       return View();
+    }
         
-        
-### views
-not working to start with
+### View
 
-?
-"Microsoft.AspNetCore.Mvc.Razor": "1.0.1",
-        "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+Views work in the same as before so things life view routing etc are as before.
 
-                .UseContentRoot(Directory.GetCurrentDirectory())
+However there area  couple of dependencies that need to be added in first.
+In your project.json add in;
 
-                app.UseStaticFiles();
+    "Microsoft.AspNetCore.Mvc.Razor": "1.0.1",
+    "Microsoft.AspNetCore.StaticFiles": "1.0.0"
+
+Then in your Program.cs when you set up your host, you will need to tell your application to use the content root so view routing will work properly.
+
+    var host = new WebHostBuilder()
+       .UseKestrel()
+       .UseContentRoot(Directory.GetCurrentDirectory())
+       .UseStartup<Startup>()
+       .Build();
+
+Also, just as with enabling MVC you need to enable using static files in Startup.Configure;
+
+    app.UseStaticFiles();
+
+There was one final head scratcher that I was struggling with before using Razor views would work for me.
+In you project.json, if you have run "dotnet new" you should have a section called "buildOptions". In this section you will need to add "preserveCompilationContext" as below;
+
+    "buildOptions": {
+        "preserveCompilationContext": true,
+        "debugType": "portable",
+        "emitEntryPoint": true
+       },
+       
+### Model
+
+One of the nice features of ASP.NET Core is that it has been designed with dependency injection in mind as I've not really tried many of the features yet but it was incredibly easy to setup.
+
+We need another dependency in project.json;
+
+    "Microsoft.Extensions.DependencyInjection": "1.0.0",
+    
+Then 
 
 
 
-### models
-
-referencing model in Razor
-using a service with DependencyInjection
 
 ### vscode refactoring
 
