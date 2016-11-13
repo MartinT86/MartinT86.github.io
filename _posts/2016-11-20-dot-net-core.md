@@ -6,8 +6,8 @@ tags: [.NET Core, ASP.NET Core, MVC]
 ---
 
 I've heard a lot of good things about ASP.NET Core so I thought I'd check it out.
-It feels very different to the Microsoft development I'm used to, but after a bit of learning curve
-it seems pretty good.
+It feels very different to the Microsoft development I'm used to, but after a bit of a learning curve
+I'm very impressed.
 
 ## Why ASP.NET Core?
 
@@ -56,9 +56,14 @@ After installation you can have a .NET application running in just 5 lines.
 
 ## MVC
 
-With ASP.NET Core being pretty different from what I'm used to I wanted to hold on to something I knew so I set out to build an MVC site with it.
+With ASP.NET Core being pretty different from what I'm used to I wanted to hold on to something I knew,
+ so I set out to build an MVC site with it.
 
-Overall, things went pretty smoothly but there were definitely some head banging moments. Mainly these caused by the [documentation](https://docs.asp.net/en/latest/) being so bad. Maybe I just need to get my head around Core more first but I didn't find them very useful at all. They spend a lot of time explaining the concepts and patterns behing MVC itself rather than how to set up a site in Core.
+Overall, things went pretty smoothly but there were definitely some head banging moments. Mainly these were 
+caused by the [documentation](https://docs.asp.net/en/latest/) being so bad. 
+Maybe I just need to get my head around Core more first but I didn't find them very useful at all. 
+They spend a lot of time explaining the concepts and patterns behind MVC itself rather than how to 
+set up a site in Core.
 
 The tutorials weren't a great deal of help either as they wanted you to use the Visual Studio templates. Something I was avoiding as I wanted to get it working with the minimal amount of boilerplate/templating I could.
 
@@ -66,7 +71,7 @@ The tutorials weren't a great deal of help either as they wanted you to use the 
 
 After running the initializer, a controller was my first step.
 
-So I added my folder and my controller class, used the new Microsoft.AspNetCore.Mvc reference and unsurprisingly it didn't work.
+So I added my folder, added my controller class, used the new Microsoft.AspNetCore.Mvc reference and unsurprisingly it didn't work.
 Rather than a nice tutorial to use I had to bounce about the docs for a while.
 
 A couple of things are needed to get the controller to work.
@@ -96,7 +101,7 @@ but you also have the option of using attribute based routing;
         
 ### View
 
-Views work in the same as before so things life view routing etc are as before.
+Views work in the same as before so things like view routing etc are as before.
 
 However there area  couple of dependencies that need to be added in first.
 In your project.json add in;
@@ -116,7 +121,7 @@ Also, just as with enabling MVC you need to enable using static files in Startup
 
     app.UseStaticFiles();
 
-There was one final head scratcher that I was struggling with before using Razor views would work for me.
+There was one final head scratcher that I was struggling with before I could get Razor views to work.
 In you project.json, if you have run "dotnet new" you should have a section called "buildOptions". In this section you will need to add "preserveCompilationContext" as below;
 
     "buildOptions": {
@@ -127,31 +132,53 @@ In you project.json, if you have run "dotnet new" you should have a section call
        
 ### Model
 
-One of the nice features of ASP.NET Core is that it has been designed with dependency injection in mind as I've not really tried many of the features yet but it was incredibly easy to setup.
+One of the nice features of ASP.NET Core is that it has been designed with dependency injection in mind.
+I've not really tried many of the features yet but it was incredibly easy to setup.
 
 We need another dependency in project.json;
 
     "Microsoft.Extensions.DependencyInjection": "1.0.0",
     
-Then 
+Then in the ConfigureServices method in the Startup class you can register your dependencies;
 
+    services.AddTransient<IGetHomeModels, HomeModelService>();
 
+## Logging
 
+I found the logging feature very useful. Without I found debugging very difficult.
+As with the dependency injection this was pretty easy to setup.
 
-### vscode refactoring
+Another package reference;
 
-eg. implement interface
-ctor
-rename = f2 (not effect views)
-remove unused usings
+    "Microsoft.Extensions.Logging.Console": "1.0.0"
 
-## examples
+and enable logging in the Configure method;
 
-https://docs.asp.net/en/latest/getting-started.html
+    loggerFactory.AddConsole(LogLevel.Error);
 
-## logging
+## Visual Studio Code IDE
 
-## next steps
+I used Visual Studio Code to set up my MVC site and it really surprised me with how good
+it works as a C# IDE.
+I was worried that without Resharper it was going to feel like one finger typing.
 
-tdd
-deployment
+However, even from this tiny project I was able to use several shortcuts within VSCode.
+
+VSCode was able to "implement interface" on a class, just like in full Visual Studio.
+
+Code snippets are also available, such as, "ctor" to create a constructor within the current class.
+
+Another feature I was surprised to see was the ability to rename easily. 
+Just hit F2 and the rest is taken care of.
+
+With me still getting use to the package system in ASP.NET Core, another useful feature is the
+"remove unused usings"
+
+With all these IDE features, and I'm sure there will be loads more I just havn't seen yet, Visual 
+Studio Code is shaping up to be a pretty competent C# IDE.
+
+## Next steps
+
+The next couple of steps for me in ASP.NET Core are adding a test project and getting it deployed somewhere.
+
+If you want to fork my base MVC site, [here it is](https://github.com/MartinT86/DotNetCoreMvcBase).
