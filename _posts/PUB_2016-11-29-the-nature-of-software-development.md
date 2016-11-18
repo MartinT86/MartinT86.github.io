@@ -23,6 +23,17 @@ process.
 
 ## What is a feature?
 
+A lot of the book is centered around the importance of features.
+
+We should plan by features, we should build by features, we should even grow our teams around features.
+Working towards features does have a lot of advantages. Planning is easier with smaller chunks, it is easier to pivot the project and while I think estimates are rarely helpful, it is easier to estimate smaller pieces of work.
+
+However, I wonder if feature is the best term for what we should be breaking the work down in to?
+Would something more in keeping with the agile ideas of always being in a releasable state and getting value from releases like "deliverable" be more appropriate. Sometimes I find that the term "feature" is too easily interchangeable with "project".
+
+Once the term feature gets swapped with project, it makes realising agile benefits such as being able to work on the most valuable thing
+at the time difficult. As people often like the feeling of completeness that comes with finishing a project.
+
 ## Working in interations
 
 ## Bug free
