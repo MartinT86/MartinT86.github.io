@@ -34,11 +34,20 @@ Would something more in keeping with the agile ideas of always being in a releas
 Once the term feature gets swapped with project, it makes realising agile benefits such as being able to work on the most valuable thing
 at the time difficult. As people often like the feeling of completeness that comes with finishing a project.
 
-## Working in interations
-
 ## Bug free
 
+In order to keep delivering value and enable flexibility the code has to be kept bug free.
+
+One way Jeffries says to achieve this is to continually design the system as it grows. While I have always refactored code
+as I develop as part of the TDD cycle, this made me think that sometimes I need to take the brave choice to refactor the design of the system. From a business's perspective this may not seem like the popular choice as speed is often seen as crucial, keeping the system clean and flexible is important in the long term.
+
+Another example of going slow to go fast is ensuring the system has good test coverage.
+Unit tests are an essential part of development, but acceptance tests can be massively helpful in enabling rapid releases of small features. By knowing that new code hasn't broken existing features this can help to reduce manual testing and increase confidence in the system.
+
 ## Up front planning
-no estimates
+
+I find planning a very interesting topic in agile development. 
+
+Large detailed plans seem to make people feel comfortable and think that they are reducing risk. However, this rarely seems to be the case. Goals and measures of value are important and knowing the current direction to those goals are 
 
 ## Whip the ponies harder
