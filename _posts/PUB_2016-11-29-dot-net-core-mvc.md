@@ -18,3 +18,7 @@ form tag helper
 ## debuging
 
 attach to process
+
+## static files
+
+need wwwroot folder
