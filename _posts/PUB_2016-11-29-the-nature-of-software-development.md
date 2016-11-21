@@ -48,6 +48,21 @@ Unit tests are an essential part of development, but acceptance tests can be mas
 
 I find planning a very interesting topic in agile development. 
 
-Large detailed plans seem to make people feel comfortable and think that they are reducing risk. However, this rarely seems to be the case. Goals and measures of value are important and knowing the current direction to those goals are 
+Large detailed plans seem to make people feel comfortable and think that they are reducing risk. However, this rarely seems to be the case. Goals and measures of value are important and knowing the current direction to those goals are important. But a detailed long term is rarely going to be helpful, unless you can see the future. It can also be damaging to the success of a project. It may stop you feeling like you have the flexibility to change direction.
 
 ## Whip the ponies harder
+
+There is an interesting chapter in the book dealing with the dangers of just putting more pressure on the team to get more out of them.
+This is extremely unlikely to work very well. Due to the extra pressure, mistakes will be made, best practices will slip and defects will be introduced in to the system. As previously mentioned, overall this will make the project take longer.
+
+Jeffries goes on to say that analysing and removing any sources of delay for the team is likely to have a much larger impact. The same goes for helping the team to improve. This could be through training or helping them analyse how they are working for example.
+
+I would have to say I whole heartedly agree with this point. Maybe I've just been very lucky in my career to have only met hard working developers but I have never worked with someone who I thought "if they worked harder this would go a lot faster". Training and working to help resolve the team's issues has always been a much better way to help increase the flow of work.
+
+## A very helpful book
+
+I really enjoyed this book. It's reminded me to take a step back everynow and again, slow down and think "am I doing this the best way?" when it comes to agile development. 
+
+It's so easy to say "yes I know how you should work in an agile manner", but it's also very easy to get bogged down in processes and "agile" methods. 
+
+The Nature of Software Development has made me think more about why we work in a an agile way in the first place, that must be a good thing.
