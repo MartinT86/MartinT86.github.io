@@ -5,7 +5,11 @@ description: "A great book that neatly sums up the concepts behind working in an
 tags: [Book]
 ---
 
-Either a great introduction to agile development or a reminder of how to focus on what value is and how to get it.
+Both a great introduction to agile development and a reminder of how to focus on what value is and how to get it.
+
+<div class="center">
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=martint86-21&marketplace=amazon&region=GB&placement=1941222374&asins=1941222374&linkId=39394083f3fb204e60149399cf9d1fa2&show_border=true&link_opens_in_new_window=true"></iframe>
+</div>
 
 ## Who the book is for
 
@@ -39,16 +43,24 @@ at the time difficult. As people often like the feeling of completeness that com
 In order to keep delivering value and enable flexibility the code has to be kept bug free.
 
 One way Jeffries says to achieve this is to continually design the system as it grows. While I have always refactored code
-as I develop as part of the TDD cycle, this made me think that sometimes I need to take the brave choice to refactor the design of the system. From a business's perspective this may not seem like the popular choice as speed is often seen as crucial, keeping the system clean and flexible is important in the long term.
+as I develop as part of the TDD cycle, this made me think that sometimes I need to take the 
+brave choice to refactor the design of the system. From a business's perspective this may not 
+seem like the popular choice as speed is often seen as crucial, 
+but keeping the system clean and flexible is important in the long term.
 
 Another example of going slow to go fast is ensuring the system has good test coverage.
-Unit tests are an essential part of development, but acceptance tests can be massively helpful in enabling rapid releases of small features. By knowing that new code hasn't broken existing features this can help to reduce manual testing and increase confidence in the system.
+Unit tests are an essential part of development, but acceptance tests can be massively helpful in 
+enabling rapid releases of small features. By knowing that new code hasn't broken existing features this can help to reduce manual testing and increase confidence in the system.
 
 ## Up front planning
 
 I find planning a very interesting topic in agile development. 
 
-Large detailed plans seem to make people feel comfortable and think that they are reducing risk. However, this rarely seems to be the case. Goals and measures of value are important and knowing the current direction to those goals are important. But a detailed long term is rarely going to be helpful, unless you can see the future. It can also be damaging to the success of a project. It may stop you feeling like you have the flexibility to change direction.
+Large detailed plans seem to make people feel comfortable and think that they are reducing risk. 
+However, this rarely seems to be the case. Goals and measures of value are important and so is 
+knowing the current direction to those goals. But a detailed long term plan
+is rarely going to be helpful, unless you can see the future. 
+However it can also be damaging to the success of a project. It may stop you feeling like you have the flexibility to change direction.
 
 ## Whip the ponies harder
 
