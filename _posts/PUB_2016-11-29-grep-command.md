@@ -5,9 +5,22 @@ description: "Using the grep command to filter a file and put the results in a n
 tags: [Linux, UNIX, grep]
 ---
 
-I had to use the referer option on a curl command recently in order to spoof the referer header.
-After initially thinking my code wouldn't be testable until going live, I was pretty pleased 
-to find this option was available.
+As Linux continues to blow my mind, I thought I better start getting down some of the commands that I've been finding useful.
 
-## My curl posts
+## My Linux command posts
 
+These posts are NOT supposed to be exhaustive documentation for the commands they cover but are as I've found them useful and my memory is terrible.
+
+## The grep command
+
+The grep command is used for searching text for regular expressions and returning the lines that match. The result can then be output to a new file
+
+## Why I needed it
+
+Recently I asked to get certain details out of a very large text file. My first thought was to open the log in Excel and start filtering away. But then a Linux loving colleague showed me the grep command.
+
+<iframe src="//giphy.com/embed/EldfH1VJdbrwY" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/tim-and-eric-mind-blown-EldfH1VJdbrwY">via GIPHY</a></p>
+
+## How I used it
+
+grep "the text I was searching for"
