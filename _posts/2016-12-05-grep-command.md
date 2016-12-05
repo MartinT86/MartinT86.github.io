@@ -25,8 +25,10 @@ that match. The result can then be output to a new file
 Recently I was asked to get certain details out of a very large log file. My first thought was 
 to open the log in Excel and start filtering away. But then a Linux loving colleague showed me the grep command.
 
+<div class="slides-container">
 <div class="center">
 <iframe src="//giphy.com/embed/EldfH1VJdbrwY" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/tim-and-eric-mind-blown-EldfH1VJdbrwY">via GIPHY</a></p>
+</div>
 </div>
 
 ## How I used it
