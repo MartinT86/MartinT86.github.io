@@ -45,10 +45,47 @@ The docs for testing in ASP.NET Core can be found [here](https://docs.microsoft.
 It was a big relief to find that setting up unit testing was straightforward as I'm loving
 learning ASP.NET Core and I didn't want it to be a blocker.
 
-## tag helpers
+## Tag helpers
 
-_ViewImports.cshtml
-form tag helper
+While ASP.NET Core you can use Razor as your view engine, there are still some updates that you can take advantage of.
+On my little test site I was trying to set up a form by using the html helper begin form;
+
+    @using (Html.BeginForm())
+    {
+        //form goodness goes here
+    }
+
+However after reading through the [ASP.NET Core docs](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro)
+I found the new tag helpers. I was sceptical at first as I've always found html helpers to be pretty useful and didn't
+particularly consider them needing replacing.
+
+But now I'm a convert, tag helpers are pretty cool.
+
+So my form became;
+
+    <form asp-controller="Home" asp-action="Index" method="post" id="usrform">
+        <!-- Input and Submit elements -->
+        <button type="submit">Get name</button>
+    </form>
+
+No longer do you need to fill in the html helper's signature, you just write the markup you need with the required attributes.
+For example to set the controller;
+
+    asp-controller="Home"
+    
+This makes the markup much nicer to read for everyone and removes that dependance on knowing how to use each helper.
+For example I would much rather read;
+
+    <label class="myClass" asp-for="MyProperty"></label>
+    
+Compared to;
+
+    @Html.Label("MyProperty", "My Property:", new {@class="myClass"})
+
+I'm so glad I don't have to remember that awful syntax for adding classed to html helpers. 
+
+### _ViewImports.cshtml
+
 
 ## debuging
 
