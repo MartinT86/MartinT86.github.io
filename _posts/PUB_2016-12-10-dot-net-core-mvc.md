@@ -82,14 +82,34 @@ Compared to;
 
     @Html.Label("MyProperty", "My Property:", new {@class="myClass"})
 
-I'm so glad I don't have to remember that awful syntax for adding classed to html helpers. 
+I'm so glad I don't have to remember that awful syntax for adding classes to html helpers. 
 
 ### _ViewImports.cshtml
 
+In order to use tag helpers you need to make them available in a _ViewImports.cshtml file in 
+the Views folder.
 
-## debuging
+    @addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
 
-attach to process
+The above will add the tag helpers in the Microsoft.AspNetCore.Mvc.TagHelpers namespace.
+By following the same convention you can make custom tag helpers available as well.
+
+## Debuging
+
+While unit testing massively reduces the need to use the debugger, I'm only human.
+
+For a free IDE, the debugging capabilities of VSCode are fantastic.
+
+Rather than using the VSCode launch.json and the built in debug launcher (since it's not a 
+console application), attaching the debugger to the running process worked well.
+
+By running "dotnet run" from the source directory of the application the mvc site will be up and running.
+
+<figure>
+	<a href="{{ site.url }}/images/dotnet-debug.png"><img src="{{ site.url }}/images/dotnet-debug.png" alt="Debugging in VSCode"></a>
+	<figcaption>Debugging an ASP.NET Core MVC app in VSCode</figcaption>
+</figure>
+
 
 ## static files
 
