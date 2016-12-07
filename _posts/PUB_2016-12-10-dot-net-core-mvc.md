@@ -6,7 +6,7 @@ tags: [.NET Core, ASP.NET Core, MVC]
 ---
 
 After setting up my first ASP.NET Core MVC site I've looked in to expanding it with a test project
-and taking advantage of more new features.
+and taking advantage of more of the new features.
 
 ## Test project
 
@@ -35,6 +35,9 @@ straightforward.
 
 For a mocking framework I went with Moq. It's not my first choice, but I read it worked with 
 ASP.NET Core so I went for it. 
+Below is the dependancy to add to the project.json;
+
+    "Moq": "4.6.38-alpha",
 
 Once all the tests are in place, you just need to run the following command in the test project;
 
@@ -47,7 +50,7 @@ learning ASP.NET Core and I didn't want it to be a blocker.
 
 ## Tag helpers
 
-While ASP.NET Core you can use Razor as your view engine, there are still some updates that you can take advantage of.
+While in ASP.NET Core you can use Razor as your view engine, there are still some updates that you can take advantage of.
 On my little test site I was trying to set up a form by using the html helper begin form;
 
     @using (Html.BeginForm())
@@ -56,7 +59,7 @@ On my little test site I was trying to set up a form by using the html helper be
     }
 
 However after reading through the [ASP.NET Core docs](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro)
-I found the new tag helpers. I was sceptical at first as I've always found html helpers to be pretty useful and didn't
+I found the new tag helpers. I was sceptical at first as I've always found html helpers to be useful and didn't
 particularly consider them needing replacing.
 
 But now I'm a convert, tag helpers are pretty cool.
@@ -73,7 +76,7 @@ For example to set the controller;
 
     asp-controller="Home"
     
-This makes the markup much nicer to read for everyone and removes that dependance on knowing how to use each helper.
+This makes the markup much nicer to read for everyone and removes that dependence on knowing how to use each helper.
 For example I would much rather read;
 
     <label class="myClass" asp-for="MyProperty"></label>
@@ -111,8 +114,29 @@ from the debug panel choose the attach to process option.
 	<figcaption>Debugging an ASP.NET Core MVC app in VSCode</figcaption>
 </figure>
 
-As you can see in the screenshot, the debugger is pretty comparable to debugger in the full version Visual Studio. You can set break points, watch variables and step through.
+As you can see in the screenshot, the debugger is pretty comparable to debugger in the 
+full version Visual Studio. You can set break points, watch variables and step through.
 
-## static files
+## Static files
 
-need wwwroot folder
+The typical location for static assets in an ASP.NET Core MVC app is in a folder called
+wwwroot at the root of the project. 
+
+Then in the WebHostBuilder set the content root to be the current directory.
+
+    var host = new WebHostBuilder()
+        .UseKestrel()
+        .UseContentRoot(Directory.GetCurrentDirectory())
+        .UseStartup<Startup>()
+        .Build();
+
+    host.Run();
+
+Static assets will then be available by using a relative path to the wwwroot folder.
+For example;
+
+    <link rel="stylesheet" href="~/css/bootstrap.css" >
+
+## Example site
+
+My example site so far is on Github [here](https://github.com/MartinT86/NameInTheHat)
