@@ -103,13 +103,15 @@ For a free IDE, the debugging capabilities of VSCode are fantastic.
 Rather than using the VSCode launch.json and the built in debug launcher (since it's not a 
 console application), attaching the debugger to the running process worked well.
 
-By running "dotnet run" from the source directory of the application the mvc site will be up and running.
+By running "dotnet run" from the source directory of the application the mvc site will be up and running. Then
+from the debug panel choose the attach to process option.
 
 <figure>
 	<a href="{{ site.url }}/images/dotnet-debug.png"><img src="{{ site.url }}/images/dotnet-debug.png" alt="Debugging in VSCode"></a>
 	<figcaption>Debugging an ASP.NET Core MVC app in VSCode</figcaption>
 </figure>
 
+As you can see in the screenshot, the debugger is pretty comparable to debugger in the full version Visual Studio. You can set break points, watch variables and step through.
 
 ## static files
 
