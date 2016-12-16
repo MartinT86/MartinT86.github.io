@@ -8,8 +8,6 @@ tags: [TDD, Unit Tests]
 Recently I've been looking at how a unit of work should be tested and asking myself the question "should every class have it's own unit
 test?"
 
-## What is a unit of work?
-
 ## A test per class?
 
 A lot of my unit testing historically has been around making sure every class is individually tested. Every dependecy in the
@@ -21,7 +19,8 @@ However, I've been experimenting with testing a full unit of work rather than ju
 
 For my dependecies I now create a new instance of each so in effect I am still testing each class, just not individually.
 
-These aren't integration tests though. 
+These aren't integration tests though. The boundaries will still be mocked out. The boundaries may be external, such as 
+a database or an api, or they may be internal still, such as the layers of the application.
 
 ## Refactoring
 
@@ -56,5 +55,14 @@ To something more like;
       //new up the required services rather than mock them
       //only the external call to the database would be mocked
     }
-    
-## Slower
+
+Again, I'm finding this means I have to keep less of the systems reasoning in my head. I don't have to remember why its important
+a certain service is called. The test will tell me why something is happening and test the result. It doesn't care how I
+get there.
+
+## So should every class have its own unit test?
+
+No.
+
+Unless there is a good reason, such as external dependencies, each class should be covered by tests but not necessarily
+their own.
