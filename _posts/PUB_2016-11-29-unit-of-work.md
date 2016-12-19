@@ -33,7 +33,7 @@ I find I can be reluctant to start changing the design of the system.
 
 ## Reveal intent
 
-The increased scope of my unit tests from class to unit of work has helped not only my code, but tests to follow one of Kent
+The increased scope of my unit tests from class to unit of work has helped not only my code, but helped my tests to follow one of Kent
 Beck's [4 simple design rules](http://martinfowler.com/bliki/BeckDesignRules.html);
 
 > Reveals intention
