@@ -19,3 +19,8 @@ uses node not ruby
 
 http://lesscss.org/functions/
 
+lighten
+
+## Gulp watch
+
+adding a dependency on itself
