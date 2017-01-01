@@ -30,3 +30,55 @@ You can get your local dotnet version by;
     dotnet --version
     
 Thanks to [Scott Hanselman](http://www.hanselman.com/blog/PublishingASPNETCore11ApplicationsToAzureUsingGitDeploy.aspx) for getting me over the first hurdle.
+
+## Configuring your app to run in IIS
+
+For your app to work in Azure, you need to configure it to with IIS and there are a few steps to this.
+
+### project.json
+
+Microsoft.AspNetCore.Server.IISIntegration needs adding as a dependency in project.json.
+
+There are a few additions needed to the file as well.
+
+    "tools": {
+      "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.1.0-preview4-final"
+    }
+
+    "scripts": {
+      "postpublish": "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%"
+    }
+
+Any files that will need to be deployed with your app, such as the now required web.config will need to go in the 
+publishing options.
+
+    "publishOptions": {
+        "include": ["wwwroot", "Views"],
+        "includeFiles":["web.config"]
+    }
+
+### web.config
+
+Now we are setting the app up to run in IIS we will need a web.config.
+This is my basic web.config, just the processPath dll will need to be updated;
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <configuration>
+      <system.webServer>
+        <handlers>
+          <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModule" resourceType="Unspecified" />
+        </handlers>
+        <aspNetCore processPath=".\Site.dll" arguments="" forwardWindowsAuthToken="false" stdoutLogEnabled="true" stdoutLogFile="\\?\%home%\LogFiles\stdout" />
+      </system.webServer>
+    </configuration>
+
+### WebHostBuilder
+
+In the webHostBuilder in Program.cs you need to call .UseIISIntegration()
+
+    var host = new WebHostBuilder()
+        .UseKestrel()
+        .UseContentRoot(Directory.GetCurrentDirectory())
+        .UseIISIntegration()
+        .UseStartup<Startup>()
+        .Build();
