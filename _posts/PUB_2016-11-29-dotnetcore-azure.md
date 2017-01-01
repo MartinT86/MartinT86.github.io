@@ -10,6 +10,8 @@ I assumed that deploying an ASP.Net Core app would be as easy, turns out I was w
 
 There are a few steps to complete before the app will work in Azure.
 
+But I got it working in the end, and [here it is!](http://namepickerapp.azurewebsites.net/)
+
 ## global.json
 
 Firstly you need to set the SDK version in the global.json file, so your local version will match the one
@@ -88,4 +90,21 @@ In the webHostBuilder in Program.cs you need to call .UseIISIntegration()
 
 There was a lot of hair pulling to get this up and running, but on the bright side it was good practice trouble shooting Azure.
 
-### 
+### Logging
+
+To turn on logging in Azure, go to Diagnostic Logs and turn on Application Logging and Failed request tracing.
+
+!!!!!!!!!!!!!!!!!!!!!logging pic here
+
+### Kudu
+
+Kudu has some very useful tools for an Azure web app.
+To reach Kudu, go to {your app name}.scm.azurewebsites.net
+
+One of the things I find very useful in Kudu is the Process explorer. It shows which process are running on your instance.
+
+Another useful tool is Debug Console. From here you can explore the files that have been deployed for your app, but also
+any logs.
+You can also access the command line, very helpful in investigating any issues.
+
+And if all else fails, under Tools you have the Diagnostic dump. This downloads all your logs in one zip file.
