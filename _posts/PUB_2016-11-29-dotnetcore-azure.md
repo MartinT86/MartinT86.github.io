@@ -34,6 +34,7 @@ Thanks to [Scott Hanselman](http://www.hanselman.com/blog/PublishingASPNETCore11
 ## Configuring your app to run in IIS
 
 For your app to work in Azure, you need to configure it to with IIS and there are a few steps to this.
+The detail on them can be found [here](https://docs.microsoft.com/en-us/aspnet/core/publishing/iis)
 
 ### project.json
 
@@ -50,7 +51,7 @@ There are a few additions needed to the file as well.
     }
 
 Any files that will need to be deployed with your app, such as the now required web.config will need to go in the 
-publishing options.
+publishing options. The publishOptions docs are [here](https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json#publishoptions)
 
     "publishOptions": {
         "include": ["wwwroot", "Views"],
@@ -82,3 +83,9 @@ In the webHostBuilder in Program.cs you need to call .UseIISIntegration()
         .UseIISIntegration()
         .UseStartup<Startup>()
         .Build();
+
+## Troubleshooting Azure
+
+There was a lot of hair pulling to get this up and running, but on the bright side it was good practice trouble shooting Azure.
+
+### 
