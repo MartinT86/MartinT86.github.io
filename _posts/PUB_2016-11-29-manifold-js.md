@@ -35,3 +35,15 @@ order to be uploaded to the Google Play Developer Console.
 !!!!!!!!!!!!!!!!!!!!!!build image here
 
 ## Google Play Developer Console
+
+You can sign up to the Google Play Developer Console [here](https://play.google.com/apps/publish/signup/).
+
+After signing up, you need to upload the APK created in Android Studio. There are also some questions to fill out about
+the purpose of the app, along with providing screen shots for the store. With the form filled out, its time to 
+publish! This can take a few hours but in the console you can check on its status.
+
+## Benefits of hosted web apps
+
+The major benefit I found with this approach to getting an app in the store was the flexibility of being able to 
+create a website in whatever language you like. The incresed speed of getting a site ready and getting cross 
+platform apps quickly is very helpful.
