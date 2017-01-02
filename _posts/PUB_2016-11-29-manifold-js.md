@@ -5,7 +5,8 @@ description: "Creating hosted web apps with Manifold JS"
 tags: [Manifold JS, Hosted Web Apps, Android]
 ---
 
-I thought I'd give Manifold JS a try and create a hosted web app for Android
+I thought I'd give Manifold JS a try and create a hosted web app for Android.
+You can find my very first app in the Google Play store [here](https://play.google.com/store/apps/details?id=net.azurewebsites.namepickerapp)
 
 ## Manifold JS
 
