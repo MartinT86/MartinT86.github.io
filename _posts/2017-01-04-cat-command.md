@@ -15,7 +15,11 @@ These posts are NOT supposed to be exhaustive documentation for the commands the
 
 The cat (concatenate) command is pretty useful. It can be used make files, look at the contents of a file and combine files to make a new one.
 
+<div class="slides-container">
+<div class="center">
 <iframe src="//giphy.com/embed/o0vwzuFwCGAFO" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/cat-hacker-webs-o0vwzuFwCGAFO">via GIPHY</a></p>
+</div>
+</div>
 
 ## Why I needed it
 
@@ -27,4 +31,4 @@ The task it came in useful for was to combine the logs from several days from se
     
 Much easier than going in to each file, copying the contents, pasting in to a new file and remembering which files I had already done.
 
-[Here]() is the link to my other Linux command posts.
+[Here](/grep-command/) is the link to my other Linux command posts.
