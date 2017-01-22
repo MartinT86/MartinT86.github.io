@@ -20,12 +20,9 @@ template MVC site and thats what it gave me.
 Now this is what I thought would be the easy bit. My local prototpye had gone well, so lets get this bad boy live!
 LocalDB is just a mdf and a ldf file like any SQL database, so I didn't foresee any issues.
 
-## Azure
-
 !!!!!!!!!!!!!Azure DB Image
 
-So the only way I could find in Azure to upload an existing database was to use a .bacpac file. I couldn't tell you 
-the technical differences between a .bak file and .bacpac but Azure was asking for a .bacpac so that's what I was after.
+The only way I could find in Azure to upload an existing database was to use a .bacpac file. 
 
 ## SQL Server Management Studio
 
@@ -34,3 +31,36 @@ The easiest way I could think of was to attach the mdf file to a local of instan
 a local instance and had to set one up was a bit annoying.
 
 !!!!!!!!!!!!!!attach db image
+
+## Export Data Tier Application
+
+In order to get the .bacpac file, you need to select Export Data Tier from the Tasks menu of the database.
+You can select a local drive or upload the .bacpac directly to an Azure storage account.
+Bear in mind, that using this method you will need an storage account. Even if you store the .bacpac locally, 
+you will need to upload to a storage account first in order to restore to an Azure SQL server.
+
+!!!!!!!!!!!!!!!!!export data tier image
+
+## Deploy Database to Microsoft Azure SQL Database
+
+The option I went for was Deploy Database to Microsoft SQL Database. With this method you do however need a connection 
+string to an existing Azure SQL server. In order to get this, I made a free small database using the Azure portal.
+
+With the connection string you can then import the database directly. Once the import is finished, then you can delete 
+the first database.
+
+!!!!!!!!!!!!!!!!!!deploy image
+
+## Generate Scripts
+
+Another option would be to use the Generate Scripts task. However, this would also require attaching the LocalDB 
+to a local instance of SQL Server.
+
+If this is the method that would suit you best, don't forget to select "Schema and data" from the advanced scripting 
+options in the Generate Scripts wizard.
+
+!!!!!!!!!!!!!!!!generate scripts image
+
+I was surprised at how awkward it was to transfer a LocalDB from a local prototype to Azure. There are a few different options to getting it done, it really depends on what you currently have set up in Azure for which one will be easiest for you.
+
+And these are just the ways that I found, if anyone has any easier/quicker methods it would be great to hear them.
