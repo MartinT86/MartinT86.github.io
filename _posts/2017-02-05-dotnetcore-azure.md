@@ -35,7 +35,7 @@ Thanks to [Scott Hanselman](http://www.hanselman.com/blog/PublishingASPNETCore11
 
 ## Configuring your app to run in IIS
 
-For your app to work in Azure, you need to configure it to with IIS and there are a few steps to this.
+For your app to work in Azure, you need to configure it to work with IIS and there are a few steps to this.
 The detail on them can be found [here](https://docs.microsoft.com/en-us/aspnet/core/publishing/iis)
 
 ### project.json
@@ -94,7 +94,12 @@ There was a lot of hair pulling to get this up and running, but on the bright si
 
 To turn on logging in Azure, go to Diagnostic Logs and turn on Application Logging and Failed request tracing.
 
-!!!!!!!!!!!!!!!!!!!!!logging pic here
+<div class="center">
+<figure>
+	<a href="{{ site.url }}/images/logging.png"><img src="{{ site.url }}/images/logging.png" alt="azure logging"></a>
+	<figcaption>How to turn on Azure logging</figcaption>
+</figure>
+</div>
 
 ### Kudu
 
