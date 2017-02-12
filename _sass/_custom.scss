@@ -17,3 +17,10 @@
 .center{
     text-align: center;
 }
+
+
+@media screen and (min-width: 320px) {
+  .center img {
+    width: 50%;
+  }
+}
