@@ -17,7 +17,7 @@ automated tests in place.
 
 ## Why I don't like the term
 
-I'm saying technical tasks aren't important. I hope they are or I'd be out of work.
+I'm not saying technical tasks aren't important. I hope they are or I'd be out of work.
 
 The term "technical debt" hides the real reason that the technical task should be carried out. I see it as if someone asks why
 you are doing that task your response could be "you don't need to worry about it, it's technical".
@@ -27,7 +27,16 @@ back to zero.
 
 ## Focus on value
 
+You need to ask yourself "why do I feel this task needs doing?".
 
+As with adding a new feature (I hope) you would set out your success criteria, the problem you are trying to solve and the value you hope to gain.
+
+Lets take an old piece of code that could do with some refactoring as an example.
+
+When was this code last updated? Are you likely to need to be in this area of the solution anytime soon?
+
+If you haven't touched the code for long time and it's not throwing errors, why does it need refactoring? What's the value to be
+gained here?
 
 ## Then what should we call it?
 
