@@ -53,5 +53,17 @@ defined separately to another?
 Work is work and you should be working on the most valuable thing you can. It shouldn't matter if that work is adding a new feature 
 or updating an old one.
 
-
 ## How we should deal with technical issues
+
+I would say it depends on what this "debt" is.
+
+If it is indeed a piece or "work" then treat it as such. Examine the value you expect to get from it and prioritise it
+accordingly.
+
+For any refactoring "debt" I really like Uncle Bob's boy scout rule.
+Anyone who knows me, knows I'm a pretty big fan of Uncle Bob (if you've not heard of him, check him out [here](https://sites.google.com/site/unclebobconsultingllc/). 
+Basically, you always leave the code in a better state than when you found it. By following this principle, the code base should 
+be cleaned up relatively quickly while still delivering value.
+
+Don't get me wrong, refactoring is extremly important but I would be wary of refactoring with the goal of refactoring. If you are refactoring something so new functionality can be added or some other value gained, fantastic. 
+If you are refactoring and don't know the value that will come from it, why are you doing it?
