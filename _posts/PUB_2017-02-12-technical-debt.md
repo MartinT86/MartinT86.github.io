@@ -67,3 +67,16 @@ be cleaned up relatively quickly while still delivering value.
 
 Don't get me wrong, refactoring is extremly important but I would be wary of refactoring with the goal of refactoring. If you are refactoring something so new functionality can be added or some other value gained, fantastic. 
 If you are refactoring and don't know the value that will come from it, why are you doing it?
+
+## tl;dr
+
+There is no such thing as techincal debt.
+
+There is however, more work to do. Treat it like you would any other piece of work. Understand the expected value and
+plan accordingly.
+
+<div class="slides-container">
+<div class="center">
+<iframe src="//giphy.com/embed/3o6Zt0hNCfak3QCqsw" width="480" height="352" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/the-matrix-there-is-no-spoon-3o6Zt0hNCfak3QCqsw">via GIPHY</a></p>
+</div>
+</div>
