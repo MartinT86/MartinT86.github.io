@@ -25,8 +25,7 @@ you are doing that task your response could be "you don't need to worry about it
 It implies that there isn't value to be gained from doing that work, like paying a debt, you aren't improving your balance just getting
 back to zero.
 
-I also feel like sometimes it implies that something incorrectly was done in the first place. Yes, this may be the case sometimes, 
-however most of the time I see the cause of "technical debt" to be pragmatism. It's a very rare situation that you have unlimited
+It's a very rare situation that you have unlimited
 resources to polish and refine something. Decisions are made when "enough is enough", and I feel that is a benefit of working in
 an agile environment. You get as much value as you can for the decided budget.
 
@@ -70,13 +69,15 @@ If you are refactoring and don't know the value that will come from it, why are 
 
 ## tl;dr
 
-There is no such thing as techincal debt.
-
-There is however, more work to do. Treat it like you would any other piece of work. Understand the expected value and
-plan accordingly.
-
 <div class="slides-container">
 <div class="center">
 <iframe src="//giphy.com/embed/3o6Zt0hNCfak3QCqsw" width="480" height="352" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/the-matrix-there-is-no-spoon-3o6Zt0hNCfak3QCqsw">via GIPHY</a></p>
 </div>
 </div>
+
+There is no such thing as techincal debt.
+
+There is however, more work to do. Treat it like you would any other piece of work. Understand the expected value and
+plan accordingly.
+
+
