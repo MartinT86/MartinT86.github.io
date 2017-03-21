@@ -44,15 +44,23 @@ To do this, I added a rigid body component to my object.
     rb = GetComponent<Rigidbody>();
     
 The above will get the rigid body from your game object and this be assigned to a private variable.
-Then to apply the movement;
+Then to apply the movement as force;
 
     rb.AddForce(movement * speed);
+
+The speed is just a private variable for the script to increase the value of the movement as needed
 
 ## Change to dynamic collider
 
 During testing my app, my objects would sometimes fly through the other box colliders in the scene.
+This had me scratching my head for a while. All my colliders looked correct and the box would only
+go through the wall intermittently.
 
-!!!!!!!!!!!!!!!!get the info of the collider change
+It turns out that fast moving objects can sometimes pass though a collider.
+To get around this, you can the collision detection on the rigid body to continuous dynamic.
+While not as performant, sometimes it will be needed.
+
+I got the answer to this puzzle from the Unity forum [here](http://answers.unity3d.com/questions/34444/high-speed-object-collisionhow-to-avoid-pass-throu.html).
 
 ## The code in use
 
