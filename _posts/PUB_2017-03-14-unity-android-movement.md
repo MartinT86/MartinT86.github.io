@@ -28,13 +28,36 @@ Below is the constructor for a Vector3;
     public Vector3(float x, float y, float z);
     
 The keen eyed of you will notice that I have my Z and Y values the wrong way around.    
+By swapping the Z and Y, the phone at rest is flat rather than upright. After having a few people test my app, they
+said that this felt much more natural.
 
+## FixedUpdate()
 
-
-## Script
-
+I put the code for the movement in FixedUpdate() over Update() so the calculation would be handled before each frame is rendered.
 
 ## Rigid Body
 
+To make the movement look more natural, I applied the movement as force rather than just moving the position of my object.
+
+To do this, I added a rigid body component to my object.
+
+    rb = GetComponent<Rigidbody>();
+    
+The above will get the rigid body from your game object and this be assigned to a private variable.
+Then to apply the movement;
+
+    rb.AddForce(movement * speed);
+
+## Change to dynamic collider
+
+During testing my app, my objects would sometimes fly through the other box colliders in the scene.
+
+!!!!!!!!!!!!!!!!get the info of the collider change
 
 ## The code in use
+
+Here is my code in action!
+
+!!!!!!!!!!!!!!!!!!!screen shot of game!!!!!!!!!!!!!!!
+
+You can get my first Unity app in the Google Play store from [here](https://play.google.com/store/apps/details?id=com.MTDevelopment.DiceShaker)
