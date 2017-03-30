@@ -5,7 +5,16 @@ description: "How to use your phone's movement in Unity"
 tags: [Unity, Android]
 ---
 
+I've been teaching myself Unity and wanted to make a phone app that used the 
+movement from the phone.
+
 It turns out that using the movement from your phone is pretty easy. Here's how I did it in my first Unity app.
+
+
+<figure>
+	<a href="{{ site.url }}/images/diceshaker.png"><img src="{{ site.url }}/images/diceshaker.png" alt="dice shaker app"></a>
+	<figcaption>My first unity app</figcaption>
+</figure>
 
 ## The code
 
@@ -62,10 +71,6 @@ While not as performant, sometimes it will be needed.
 
 I got the answer to this puzzle from the Unity forum [here](http://answers.unity3d.com/questions/34444/high-speed-object-collisionhow-to-avoid-pass-throu.html).
 
-## The code in use
+## My App!
 
-Here is my code in action!
-
-!!!!!!!!!!!!!!!!!!!screen shot of game!!!!!!!!!!!!!!!
-
-You can get my first Unity app in the Google Play store from [here](https://play.google.com/store/apps/details?id=com.MTDevelopment.DiceShaker)
+If you want to see my code in action you can get my first Unity app in the Google Play store from [here](https://play.google.com/store/apps/details?id=com.MTDevelopment.DiceShaker)
