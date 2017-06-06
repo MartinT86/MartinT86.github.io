@@ -33,3 +33,23 @@ This will open the crontab file for editing; for me this opens in Vim by default
 To make a chang in Vim, press "I" to put it in "Insert" mode, make your changes then exit by first pressing escape to leave "Insert" mode followed by ":wq" to write and quit.
 
 ## cron schedule
+
+A cron schedule is made up from 5 time parts to set the schedule. Minute, hour, day of month, month, and day of week.
+
+| *      | *    | *            | *     | *           |
+|--------|------|--------------|-------|-------------|
+| minute | hour | day of month | month | day of week |
+
+For example, to run a command at 2:30pm every day the schedule would be;
+
+    30 14 * * *
+    
+To have a command run every 10 minutes;
+
+    */10 * * * *
+    
+To run a command at quarter past and quarter to every hour;
+
+    15,45 * * * *
+    
+(crontab.guru)[https://crontab.guru] is a great site where you can test out your schedule.
