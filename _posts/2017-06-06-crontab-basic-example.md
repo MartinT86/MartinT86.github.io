@@ -12,7 +12,7 @@ Losing the Task Scheduler is one such example. However, we have Crontab to the r
 
 A cron job is just a command to run and the schedule that it should be run on.
 
-Crontab is just a collection of those cron jobs. So it does appear we are losing a lot of functionality if you compare it to Task Scheduler, such as having triggers that are not based around time only. I thought the loss of such features and the GUI would be a hinderance to crontab, but so far it really hasn't been. I don't think I've ever made a scheduled task that wasn't based on a timed schedule and the GUI is usually massively unresponsive. Especially when remoted on to a server.
+Crontab is just a collection of those cron jobs. So it does appear we are losing a lot of functionality if you compare it to Task Scheduler, such as having triggers that are not based around time only. I thought the loss of such features and the GUI would be a hinderance to crontab, but so far it really hasn't been. I don't think I've ever made a scheduled task that wasn't based on a timed schedule and the GUI is usually massively unresponsive, especially when remoting on to a server.
 
 ## -l
 
