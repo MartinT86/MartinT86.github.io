@@ -52,4 +52,4 @@ To run a command at quarter past and quarter to every hour;
 
     15,45 * * * *
     
-(crontab.guru)[https://crontab.guru] is a great site where you can test out your schedule.
+[crontab.guru](https://crontab.guru) is a great site where you can test out your schedule.
