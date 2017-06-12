@@ -21,3 +21,8 @@ So for this extension it would be;
 
 ## Usage
 
+This extension provides a range of snippets for ES6 Mocha tests, such as for "describe", "it" and "before"
+
+To use, start typing the desired snippet, use the arrow keys to select the correct snippet, then tab or enter to complete the snippet.
+
+A great extension to help speed up those all important tests!
