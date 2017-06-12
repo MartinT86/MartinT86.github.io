@@ -23,6 +23,20 @@ So for this extension it would be;
 
 This extension provides a range of snippets for ES6 Mocha tests, such as for "describe", "it" and "before"
 
+<div class="center">
+<figure>
+	<a href="{{ site.url }}/images/describe-snippet.png"><img src="{{ site.url }}/images/describe-snippet.png" alt="es6 snippet"></a>
+	<figcaption>How to select a snippet</figcaption>
+</figure>
+</div>
+
 To use, start typing the desired snippet, use the arrow keys to select the correct snippet, then tab or enter to complete the snippet.
+
+<div class="center">
+<figure>
+	<a href="{{ site.url }}/images/describe-snippet-2.png"><img src="{{ site.url }}/images/describe-snippet-2.png" alt="es6 describe"></a>
+	<figcaption>How the snippet is shown</figcaption>
+</figure>
+</div>
 
 A great extension to help speed up those all important tests!
