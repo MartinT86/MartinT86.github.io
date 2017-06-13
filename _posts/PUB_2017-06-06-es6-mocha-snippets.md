@@ -39,4 +39,4 @@ To use, start typing the desired snippet, use the arrow keys to select the corre
 </figure>
 </div>
 
-A great extension to help speed up those all important tests!
+A great extension to help speed up writing those all important tests!
