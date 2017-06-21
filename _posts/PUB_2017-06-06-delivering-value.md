@@ -23,10 +23,17 @@ These are all valuable outcomes of releasing software, however it is important t
 
 ## My lesson learned
 
+For a while now I've been working mainly on web projects where continously delivering tiny iterations can work brilliantly. Recently hwoever I've been working on some native app projects. My immediate reaction was to "ship all the thingz" but I was reminded that native apps are not the web. A release will not mean refreshing the browser for a user but having to install an update. Not many users would want to update an app several times a day.
+
+This is what made me start thinking of how the value is generated. In this instance value is generated from users using the app. I was too focused on releasing the software quickly, because something is not done until it is live. However, in my push for continuous delivery I was in danger of forgetting about where the real value came from. I was trying to optimise the wrong part of the system.
 
 
-!!!!!!!Look at change logs for some big apps
+## Examples
 
 
 
-!!!!!!!Nice to look at things from a different perspective
+## Don't get too stuck in your ways
+
+This was a really welcome lesson of not getting too stuck in your ways and "this is the way things should be done".
+
+Every situation is different and you always need to be looking at how value is generated and how it can be maximised.
