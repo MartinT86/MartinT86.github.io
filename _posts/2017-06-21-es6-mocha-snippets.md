@@ -39,6 +39,6 @@ To use, start typing the desired snippet, use the arrow keys to select the corre
 </figure>
 </div>
 
-A great extension to help speed up writing those all important tests!
+A great extension to help speed up writing those all important tests! Check out the market place page for it [here](https://marketplace.visualstudio.com/items?itemName=spoonscen.es6-mocha-snippets).
 
 If you need a refresher, [here](/javascript-unit-testing/) is my introduction to Javascript unit testing using Mocha.
