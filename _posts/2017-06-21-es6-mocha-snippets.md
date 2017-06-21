@@ -40,3 +40,5 @@ To use, start typing the desired snippet, use the arrow keys to select the corre
 </div>
 
 A great extension to help speed up writing those all important tests!
+
+If you need a refresher, [here](/javascript-unit-testing/) is my introduction to Javascript unit testing using Mocha.
