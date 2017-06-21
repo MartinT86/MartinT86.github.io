@@ -30,7 +30,9 @@ This is what made me start thinking of how the value is generated. In this insta
 
 ## Examples
 
-
+http://www.apkmirror.com/apk/netflix-inc/
+http://www.apkmirror.com/apk/spotify-ltd/
+http://www.apkmirror.com/apk/twitter-inc/
 
 ## Don't get too stuck in your ways
 
