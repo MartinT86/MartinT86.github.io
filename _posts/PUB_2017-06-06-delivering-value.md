@@ -27,12 +27,18 @@ For a while now I've been working mainly on web projects where continously deliv
 
 This is what made me start thinking of how the value is generated. In this instance value is generated from users using the app. I was too focused on releasing the software quickly, because something is not done until it is live. However, in my push for continuous delivery I was in danger of forgetting about where the real value came from. I was trying to optimise the wrong part of the system.
 
-
 ## Examples
+
+After the revelation of getting a lots of tiny incremental updates out super fast isn't alway sthe best approach I thought I would have a look at how often some of the apps I use release updates.
 
 http://www.apkmirror.com/apk/netflix-inc/
 http://www.apkmirror.com/apk/spotify-ltd/
 http://www.apkmirror.com/apk/twitter-inc/
+
+	netflix	spotify	twitter
+avg	3.5	4.4	6.5
+max	11	11	8
+min	1	1	3
 
 ## Don't get too stuck in your ways
 
