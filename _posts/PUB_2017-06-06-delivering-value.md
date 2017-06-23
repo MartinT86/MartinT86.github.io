@@ -35,6 +35,12 @@ http://www.apkmirror.com/apk/netflix-inc/
 http://www.apkmirror.com/apk/spotify-ltd/
 http://www.apkmirror.com/apk/twitter-inc/
 
+| Days between releases        | Netflix           | Spotify   | Twitter |
+| ------------- |:-------------:|:-----:|:-----:|
+| Average     | 3.5 | 4.4 | 6.5 |
+| Max      | 11      |   11 | 8 |
+| Min | 1      |    1 | 3 |
+
 	netflix	spotify	twitter
 avg	3.5	4.4	6.5
 max	11	11	8
