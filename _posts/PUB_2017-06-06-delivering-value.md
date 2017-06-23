@@ -31,9 +31,7 @@ This is what made me start thinking of how the value is generated. In this insta
 
 After the revelation of getting a lots of tiny incremental updates out super fast isn't alway sthe best approach I thought I would have a look at how often some of the apps I use release updates.
 
-http://www.apkmirror.com/apk/netflix-inc/
-http://www.apkmirror.com/apk/spotify-ltd/
-http://www.apkmirror.com/apk/twitter-inc/
+Below are average, the maximum, and the minimum number of days between the last 10 deployments for Netflix, Spotify and Twitter.
 
 | Days between releases        | Netflix           | Spotify   | Twitter |
 | ------------- |:-------------:|:-----:|:-----:|
@@ -41,10 +39,11 @@ http://www.apkmirror.com/apk/twitter-inc/
 | Max      | 11      |   11 | 8 |
 | Min | 1      |    1 | 3 |
 
-	netflix	spotify	twitter
-avg	3.5	4.4	6.5
-max	11	11	8
-min	1	1	3
+The data for this was collected from [APK Mirror](www.apkmirror.com).
+
+
+
+https://medium.com/netflix-techblog/how-we-build-code-at-netflix-c5d9bd727f15
 
 ## Don't get too stuck in your ways
 
