@@ -41,9 +41,14 @@ Below are average, the maximum, and the minimum number of days between the last 
 
 The data for this was collected from [APK Mirror](www.apkmirror.com).
 
+These releaase times seem short and appear to contradict my eariler that delivering small incremental amounts doesn't work too well when not working on a web project. These times are short and I'm sure there are many teams out there who would be proud to be averaging a release every 4 days.
+
+However, when compared to Netflix's 
 
 
 https://medium.com/netflix-techblog/how-we-build-code-at-netflix-c5d9bd727f15
+
+https://blog.twitter.com/engineering/en_us/topics/insights/2016/manhattan-software-deployments-how-we-deploy-twitter-s-large-scale-distributed-database.html
 
 ## Don't get too stuck in your ways
 
