@@ -43,12 +43,7 @@ The data for this was collected from [APK Mirror](www.apkmirror.com).
 
 These releaase times seem short and appear to contradict my eariler that delivering small incremental amounts doesn't work too well when not working on a web project. These times are short and I'm sure there are many teams out there who would be proud to be averaging a release every 4 days.
 
-However, when compared to Netflix's 
-
-
-https://medium.com/netflix-techblog/how-we-build-code-at-netflix-c5d9bd727f15
-
-https://blog.twitter.com/engineering/en_us/topics/insights/2016/manhattan-software-deployments-how-we-deploy-twitter-s-large-scale-distributed-database.html
+However, when compared to some of Netflix's deployment pipelines, 4 days is very long. For example, [here](https://medium.com/netflix-techblog/how-we-build-code-at-netflix-c5d9bd727f15) it shows that in some instances for Netflix it takes 16 minutes from code check in to live deployment. 
 
 ## Don't get too stuck in your ways
 
