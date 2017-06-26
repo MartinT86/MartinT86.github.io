@@ -9,7 +9,7 @@ Delivering value in small, consistent amounts is an important feature of working
 
 ## Continuous delivery
 
-Continuou delivery is where you will always keep your software in deployable state, have the ability to complete automated deployments easily, and release small value changes often opposed to large infrequent deployments. I'm a huge believer in the benefits of continuous delivery and it's something I always try and work towards whatever project I am working on.
+Continuou delivery is where you aim to always keep your software in a deployable state, have the ability to complete automated deployments easily, and release small value changes often rather than large infrequent deployments. I'm a huge believer in the benefits of continuous delivery and it's something I always try and work towards whatever project I am working on.
 
 Continuous delivery is a topic in itself so I'm not going to go in to too much detail here; Martin Fowler goes in to further detail [here](https://martinfowler.com/bliki/ContinuousDelivery.html).
 
