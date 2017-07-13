@@ -5,3 +5,19 @@ description: "Here is an example of how to use the Java testing framework Mockit
 tags: [Tests, TDD, Java]
 ---
 
+## RunWith
+
+
+## Test
+
+
+## mock
+
+
+## Captor
+
+
+## when
+
+
+## verify 
