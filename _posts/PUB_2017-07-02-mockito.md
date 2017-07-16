@@ -12,13 +12,24 @@ Here is example of how to use Mockito.
 
 ## Dependency
 
+To start using Mockito, you need to add it in as a test dependency to your gradle script.
 
-testCompile 'org.mockito:mockito-core:1.10.19'
+    dependencies {
+      testCompile "org.mockito:mockito-core:2.8.47"
+    }
+
 ## RunWith
 
 Using the RunWith annotation, you attach the Mockito test runner to your test class;
 
-@RunWith(MockitoJUnitRunner.class)
+    @RunWith(MockitoJUnitRunner.class)
+    public class MockitoExampleTest {
+
+    }
+
+The runner helps to cleap your tests clean by 
+
+http://javadoc.io/doc/org.mockito/mockito-core/2.8.47
 
 ## Test
 
