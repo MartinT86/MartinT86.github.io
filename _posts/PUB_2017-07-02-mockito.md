@@ -34,15 +34,62 @@ Further details on the test runner can be found [here](http://javadoc.io/doc/org
 
 ## Test
 
-Creating a test is pretty straight forward; you just need to add the Test annotation to method within the test method.
+Creating a test is pretty straight forward; you just need to add the Test annotation to method within the test class.
+
+    @Test
+    public void MyTest(){
+        
+    }
 
 ## mock
 
+To create a mock, there is the static mock method.
+
+    IExampleInterface exampleInterface = mock(IExampleInterface.class);
+
+## when
+
+If you need to setup the mock to return values there is the static when method.
+You first specify which method you are setting up then use thenReturn to set which value you want 
+to return.
+
+    int expectedInt = 1;
+    when(exampleInterface.GetNumber()).thenReturn(expectedInt);
+
+When the method being setup has parameters, you can use exact values as the expected parameter.
+
+    String expectedString = "a string";
+    int inputNumber = 2;
+
+    when(exampleInterface.getString(inputNumber)).thenReturn(expectedString);
+
+If you don't need to be exact with the expected parameter, you can use the Mockito matchers.
+For example;
+
+    String expectedString = "a string";
+    when(exampleInterface.getString(anyInt())).thenReturn(expectedString);
+
+## Assert
+
+Mockito plays nicely with JUnit assertions, so you can just use the standard JUnit assertions.
+For example;
+
+    ExampleClass exampleClass = new ExampleClass(exampleInterface);
+    String result = exampleClass.getResult(inputNumber);
+
+    Assert.assertEquals(expectedString, result);
+
+## verify 
+
+Verify is used to assert against the methods on a mock. You can check if a certain method was 
+called, how many times, and with what parameters.
+
+    verify(exampleInterface, times(1)).getString(anyInt());
 
 ## Captor
 
 
-## when
 
 
-## verify 
+
+
