@@ -18,21 +18,23 @@ To start using Mockito, you need to add it in as a test dependency to your gradl
       testCompile "org.mockito:mockito-core:2.8.47"
     }
 
+Further details on Mockito can be found [here](http://site.mockito.org/).
+
+
 ## RunWith
 
-Using the RunWith annotation, you attach the Mockito test runner to your test class;
+To help keep your tests clean, use the Mockito test runner annotation with your test class;
 
     @RunWith(MockitoJUnitRunner.class)
     public class MockitoExampleTest {
 
     }
-
-The runner helps to cleap your tests clean by 
-
-http://javadoc.io/doc/org.mockito/mockito-core/2.8.47
+    
+Further details on the test runner can be found [here](http://javadoc.io/doc/org.mockito/mockito-core/2.8.47).
 
 ## Test
 
+Creating a test is pretty straight forward; you just need to add the Test annotation to method within the test method.
 
 ## mock
 
