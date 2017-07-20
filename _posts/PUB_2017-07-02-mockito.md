@@ -88,6 +88,16 @@ called, how many times, and with what parameters.
 
 ## Captor
 
+Captors can be use to capture the values that are passed as arguments to your mocks for further assertions.
+I have found them to be pretty useful for testing callbacks as you can capture the callback value, then call it in your test.
+
+////!!!!!!!!!!
+main class to implement an interface
+pass self to a dependency
+use captor to capture the class as an argument
+get value from captor
+call method
+verify another dependency called
 
 
 
