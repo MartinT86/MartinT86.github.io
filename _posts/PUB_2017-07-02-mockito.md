@@ -97,7 +97,7 @@ pass self to a dependency
 use captor to capture the class as an argument
 get value from captor
 call method
-verify another dependency called
+verify another dependency called.
 
 
 
