@@ -24,6 +24,8 @@ After trying the usual switch things off and on again and trying a different wir
 !!!!!
 location of adb key files
 mac + windows
+~/.android/adbkey
+~/.android/adbkey.pub
 
 How to call the adb commands
 
