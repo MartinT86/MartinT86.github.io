@@ -17,6 +17,8 @@ I'm not an expert about the Android Debug Bridge (adb) at all, however this issu
 When trying to attach a phone to debug via USB I wasn't getting the prompt to rust the computer's RSA key fingerprint.
 This meant that the device was not being authorized in adb. As such, debugging and running Espresso tests was impossible.
 
+After trying the usual switch things off and on again and trying a different wire I was still having no luck.
+
 ## How I fixed it
 
 !!!!!
