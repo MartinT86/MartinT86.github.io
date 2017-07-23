@@ -10,7 +10,7 @@ I'm not an expert about the Android Debug Bridge (adb) at all, however this issu
 <div class="center">
 <figure>
 	<a href="{{ site.url }}/images/rsa_android.png"><img src="{{ site.url }}/images/rsa_android.png" alt="rsa key fingerprint"></a>
-	<figcaption>How to select a snippet</figcaption>
+	<figcaption>RSA key fingerprint</figcaption>
 </figure>
 </div>
 
