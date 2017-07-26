@@ -21,6 +21,9 @@ As with any tool or technique, it's not perfect. It may not give you a silver bu
 
 To start I had everyone write post it notes of things they felt could have gone better since the last retro. Then we each had two votes to decide on which post it we would discuss. That point was then the basis for our Five Whys activity.
 
-It was really interesting putting Five Whys in to practice. The questions very quickly started giving more than one answer.
+It was really interesting putting Five Whys in to practice. The questions very quickly started giving more than one answer. As a team we decided which branch we wanted to follow and keep questioning. It was surprised how much information came out when the conversation was guided by the Five Whys technique.
 
-The response from the team after the session seemed pretty positive
+Once we had got to the fifth why I felt that the actions we were taking away were focused, small, and addressing the root cause of the problem.
+
+The response from the team after the session seemed pretty positive. I think it was helpful to frame the conversation around the model.
+Or at the very least, sometimes it's good to try new retro formats to keep things interesting.
