@@ -27,3 +27,5 @@ Once we had got to the fifth why I felt that the actions we were taking away wer
 
 The response from the team after the session seemed pretty positive. I think it was helpful to frame the conversation around the model.
 Or at the very least, sometimes it's good to try new retro formats to keep things interesting.
+
+If anyone else has any good ideas for retros, please let me know. It would be great to hear some new ideas.
