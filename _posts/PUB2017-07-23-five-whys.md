@@ -23,7 +23,7 @@ To start I had everyone write post it notes of things they felt could have gone 
 
 It was really interesting putting Five Whys in to practice. The questions very quickly started giving more than one answer. As a team we decided which branch we wanted to follow and keep questioning. It was surprised how much information came out when the conversation was guided by the Five Whys technique.
 
-Once we had got to the fifth why I felt that the actions we were taking away were focused, small, and addressing the root cause of the problem.
+Once we had got to the fifth why I felt that the actions we were taking away were focused, small, and addressing the root cause of the problem. While they might not fully resolve the initial problem, as they are only addressing one of possibly many root causes, I feel havinga small focused action that will be a step towards solving the problem is a good thing.
 
 The response from the team after the session seemed pretty positive. I think it was helpful to frame the conversation around the model.
 Or at the very least, sometimes it's good to try new retro formats to keep things interesting.
