@@ -5,7 +5,7 @@ description: "Here is how I refreshed my adb keys to solve adb not authorising t
 tags: [adb, Android]
 ---
 
-I'm not an expert about the Android Debug Bridge (adb) at all, however this issues cost me a couple of hours to resove the other day so I thought I would write this to remind myself if it happens again.
+I'm not an expert about the Android Debug Bridge (adb) at all, however this issue cost me a couple of hours to resove the other day so I thought I would write this to remind myself if it happens again.
 
 <div class="center">
 <figure>
@@ -50,7 +50,7 @@ On Windows they are found;
 
 ### Call the adb commands
 
-If you odn't have adb added to your path, you will need to call adb from the right 
+If you don't have adb added to your path, you will need to call adb from the right 
 location;
 
 For Macs;
