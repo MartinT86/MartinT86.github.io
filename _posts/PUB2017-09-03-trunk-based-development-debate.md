@@ -1,11 +1,21 @@
 
 ---
 layout: post
-title: "Five Whys Retro"
-description: "I tested doing the five whys at a retro, here's how it went"
-tags: [retro]
+title: "Trunk based development debate"
+description: "I recently took part in a debate arguing for trunk based development, here's how it went"
+tags: [Source control]
 ---
 
-The Five Whys technique is a tool to help in root cause analysis and I thought it might be a good excercise to try out in a retro.
+Recently I had the opportunity to take part in a debate of trunk based development vs branching. Here's how it went.
 
-## What is it?
+## What is trunk based development?
+
+In trunk based development all developers work only from the trunk or master. No branches are created for feature development or 
+
+## What is branching?
+
+
+## My arguments for trunk based development
+
+
+## Conclusion
