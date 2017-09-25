@@ -20,6 +20,14 @@ For more information on trunk based development, [here](https://trunkbaseddevelo
 
 ### XP principles
 
+When pulling together my arguments for trunk based development it occured to me that this sort of source control strategy supports several of the XP principles.
 
+### Collective ownership
+
+### Continuous integration
+
+### Small releases
+
+### Sustainable pace
 
 ## Conclusion
