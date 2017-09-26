@@ -24,9 +24,17 @@ When pulling together my arguments for trunk based development it occured to me 
 
 ### Collective ownership
 
+Since when following trunk based developer every commit should be going to the master branch which in turn will be checked out by every member of the team and break the build for everyone if there is anything wrong, collective ownership sort of just happens. If you eave broken tests, you aren't just effecting yourself, you are effecting the whole team. This quickly promotes car and attention to the work and others in the team.
+
 ### Continuous integration
 
+You should set your continuous integration pipeline to be built from commits to the master branch. If these commits are coming from every member of the team and going through continuous integration, you should always be in a position where a release to live is possible.
+
 ### Small releases
+
+By working in branches you are working against the principle of small releases. Even if you keep those branches relatively small you are going against the spirit of small releases. If commits need to be gathered together in a branch for something like a feature, then by definition these are bigger releases.
+
+In an ideal world, each commit would be going straight to live through your 
 
 ### Sustainable pace
 
