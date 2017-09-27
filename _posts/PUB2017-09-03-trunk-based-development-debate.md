@@ -34,8 +34,10 @@ You should set your continuous integration pipeline to be built from commits to 
 
 By working in branches you are working against the principle of small releases. Even if you keep those branches relatively small you are going against the spirit of small releases. If commits need to be gathered together in a branch for something like a feature, then by definition these are bigger releases.
 
-In an ideal world, each commit would be going straight to live through your 
+In an ideal world, each commit would be going straight to live through your continuous integration pipeline, in turn ensuring small releases. However, even without automated deployment, avoiding feature branches is a great way to avaoid large releases.
 
 ### Sustainable pace
+
+By avoiding the large releases and gaps between deployments, trunk based development can definitely support a sustainable pace of development.
 
 ## Conclusion
