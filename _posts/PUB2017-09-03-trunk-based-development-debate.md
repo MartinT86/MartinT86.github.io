@@ -38,6 +38,16 @@ In an ideal world, each commit would be going straight to live through your cont
 
 ### Sustainable pace
 
-By avoiding the large releases and gaps between deployments, trunk based development can definitely support a sustainable pace of development.
+By avoiding the large releases and gaps between deployments, trunk based development can definitely support a sustainable pace of development. The ideal is small incremental commits that you would always be happy for to go to live.
+
+## Presentation example
+
+To highlight the point we compared using Google slides to Microsoft powerpoint if there was more than one person preparing a presentation.
+
+Using Google slides that saves every small change to a shared document helps promote collaboration and communication. Compared to where if more than one person were working on the same Powerpoint presentation they would each keep their own copy, or branch, of the presentation. This could result in there being bigger gaps between each contributor seeing what the others are doing, resulting in confusion when the multiple presentations needed to be combined.
+
+## The rebrand problem
+
+One argument I have been presented with before is what I call the rebrand problem. The argument goes, when you are doing a big change such as rebranding a website then you need to do that work on a branch as you don't want to block releases for that amount of time.
 
 ## Conclusion
