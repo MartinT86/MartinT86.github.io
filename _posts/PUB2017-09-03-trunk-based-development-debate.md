@@ -50,4 +50,10 @@ Using Google slides that saves every small change to a shared document helps pro
 
 One argument I have been presented with before is what I call the rebrand problem. The argument goes, when you are doing a big change such as rebranding a website then you need to do that work on a branch as you don't want to block releases for that amount of time.
 
+However I would argue this is the wrong approach. Firstly I would be looking to carry out some prefactoring on my code. Make changes that may not have any direct changes to the end user but that make the code more flexible and easier to change. For example, making sure all colours in the app are managed in one place, by using Sass variables for example.
+
+Although I would prefer to avoid large changes altogether and deliver the work incrementally. For example, looking at Amazon's front end changes over the years, I would say the design has evovled incrementally rather than large step changes.
+
 ## Conclusion
+
+Overall i would say that there are some instances where trunk based development can help, such as when you are supporting multiple versions on an app. However, I would imagine that if a branching strategy is helpful, then there are likely to be further underlying issues that you should also be addressing.
