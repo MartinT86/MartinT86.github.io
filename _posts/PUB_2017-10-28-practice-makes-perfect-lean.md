@@ -5,7 +5,7 @@ description: "Here's how and why I built my last app following lean principles -
 tags: [Android, Lean, Agile]
 ---
 
-Here's how and why I built my last app following ean principles - [Practice makes Perfect](https://play.google.com/store/apps/details?id=com.mtdevelopment.practicemakesperfect)
+Here's how and why I built my last app following lean principles - [Practice makes Perfect](https://play.google.com/store/apps/details?id=com.mtdevelopment.practicemakesperfect)
 
 ## The app
 
