@@ -7,6 +7,13 @@ tags: [Android, Lean, Agile]
 
 Here's how and why I built my last app following lean principles - [Practice makes Perfect](https://play.google.com/store/apps/details?id=com.mtdevelopment.practicemakesperfect)
 
+<div class="center">
+<figure>
+	<a href="{{ site.url }}/images/practice.png"><img src="{{ site.url }}/images/practice.png" alt="Practice makes Perfect"></a>
+	<figcaption>Practice makes Perfect</figcaption>
+</figure>
+</div>
+
 ## The app
 
 My new app "Practice makes Perfect" is designed to be a tool to be used when learning a new skill. There is a theory that puts forward, if you practise something for 10,000 hours you become an expert in that skill. Practice makes Perfect, aloows you to keep track of your practise sessions by recording each one and totalling up your overall time practising time.
