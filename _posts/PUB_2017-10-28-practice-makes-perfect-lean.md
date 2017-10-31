@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Practice makes Perfect - Lean development"
-description: "Here's how and why I built my last app following ean principles - Practice makes Perfect"
+description: "Here's how and why I built my last app following lean principles - Practice makes Perfect"
 tags: [Android, Lean, Agile]
 ---
 
