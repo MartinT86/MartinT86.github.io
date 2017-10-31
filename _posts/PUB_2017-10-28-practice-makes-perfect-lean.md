@@ -5,7 +5,7 @@ description: "Here's how and why I built my last app following ean principles - 
 tags: [Android, Lean, Agile]
 ---
 
-Here's how and why I built my last app following ean principles - Practice makes Perfect
+Here's how and why I built my last app following ean principles - [Practice makes Perfect](https://play.google.com/store/apps/details?id=com.mtdevelopment.practicemakesperfect)
 
 ## The app
 
@@ -52,6 +52,6 @@ It's still early days in the app store but it's not looking like Practice makes 
 
 As such, I'm really glad that I set myself a budget, stuck to it, and got some learning from releasing. Spending more time now adding features isn't likely to increase the take up rate of the app so it doesn't seem wise to build those extra features yet.
 
-The most likely next step for the app would be start trying to gain some qualitative data on how/why someone would be looking for an app like this in the app store. People who hear about the app agree it's a good idea but now I need to understand what would convince them to download it.
+The most likely next step for the app would be start trying to gain some qualitative data on how/why someone would be looking for an app like this in the app store. People who hear about the app agree it's a good idea but now I need to understand what would convince them to download it. If you would like to try Practice makes Perfect, [download it here](https://play.google.com/store/apps/details?id=com.mtdevelopment.practicemakesperfect).
 
 If I can't come up with a plan to increase downloads then I'm ok dropping the project where it currently is. Thanks to the lean approach not a lot of time/money has been wasted and learnings were made, so if the idea ends here, I'm not overly invested in it.
