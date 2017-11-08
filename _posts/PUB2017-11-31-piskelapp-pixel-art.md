@@ -19,11 +19,21 @@ In each frame you can set layers as you would in other drawing programs. I found
 
 ## My first attempts
 
+As I'm sure I've said already, I am not an artist, so unsurprisingly my first attempts were not the most successful.
+
+I was trying to make a character for a game I'm working on and I think I may have started out a little too ambitiously.
+
+However, it is so quick and easy to start and make a new project in Piskel it really doesn't matter if you are rubbish like me.
 
 ## Animation
 
+For me, the thing that makes Piskel stand out so much was the built in animation tools.
 
-## Editor
+You have the ability to create frames to build up animation which is great. But Piskel will also preview the animation for you automatically. You can even set the number of frames per second in your preview.
+
+I found these tools to be very helpful to keep my designs on track so I didn't have to keep exporting them and turning them in to animations within Unity.
+
+Once you are happy with your animation you can then export it in various formats such as a GIF or as a sprite sheet. Since I was importing mine in to Unity I went with the sprite sheet option. On importing in to Unity I found no problems at all.
 
 
 ## Amazing
