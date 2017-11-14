@@ -35,5 +35,10 @@ I found these tools to be very helpful to keep my designs on track so I didn't h
 
 Once you are happy with your animation you can then export it in various formats such as a GIF or as a sprite sheet. Since I was importing mine in to Unity I went with the sprite sheet option. On importing in to Unity I found no problems at all.
 
+I'll do another post about how to use the sprite sheet in unity another time.
 
 ## Amazing
+
+I can't recommend Piskel enough. For someone totally new to pixel art like me, it was really daunting on how to go about getting started. However Piskel's easy to use interface let me concentrate on trying to make something cool rather than learning a new piece of software.
+
+Go try it!
