@@ -21,6 +21,13 @@ In each frame you can set layers as you would in other drawing programs. I found
 
 As I'm sure I've said already, I am not an artist, so unsurprisingly my first attempts were not the most successful.
 
+<div class="center">
+<figure>
+	<a href="{{ site.url }}/images/piskelfirst.png"><img src="{{ site.url }}/images/piskelfirst.png" alt="First pixel art sprite sheet"></a>
+	<figcaption>My first pixel art sprite sheet</figcaption>
+</figure>
+</div>
+
 I was trying to make a character for a game I'm working on and I think I may have started out a little too ambitiously.
 
 However, it is so quick and easy to start and make a new project in Piskel it really doesn't matter if you are rubbish like me.
@@ -28,6 +35,13 @@ However, it is so quick and easy to start and make a new project in Piskel it re
 ## Animation
 
 For me, the thing that makes Piskel stand out so much was the built in animation tools.
+
+<div class="center">
+<figure>
+	<a href="{{ site.url }}/images/piskelfirst.gif"><img src="{{ site.url }}/images/piskelfirst.gif" alt="First pixel art animation"></a>
+	<figcaption>My first pixel art animation</figcaption>
+</figure>
+</div>
 
 You have the ability to create frames to build up animation which is great. But Piskel will also preview the animation for you automatically. You can even set the number of frames per second in your preview.
 
