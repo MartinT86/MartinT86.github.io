@@ -25,28 +25,38 @@ The way I've been moving my sprites in my games may be to move the position of t
     
 Then in the FixedUpdate method of the script you can check if the bool is true and if it move your player as desired.
 
-   void FixedUpdate()
-   {
-     if(moveForward)
-     {
-       // move player as desired
-     }
-   }
+    void FixedUpdate()
+    {
+      if(moveForward)
+      {
+        // move player as desired
+      }
+    }
 
-In order to set the moveForward field to true I use the event trigger system to call a public method on the script. One method for button pressed and one method for button released.
+In order to set the moveForward field to true I use the event trigger system to call a public method on the script. So for the Pointer Down event on the Event Trigger component, within the button game object, call;
 
-   public void MoveButtonPressed()
-   {
-     moveForward = true;
-   }
-   
-   public void MoveButtonReleased()
-   {
-     moveForward = false;
-   }
+    public void MoveButtonPressed()
+    {
+      moveForward = true;
+    }
+
+and for the Pointer Up event, call the method to set the boolean to false;
+
+    public void MoveButtonReleased()
+    {
+      moveForward = false;
+    }
+
+<div class="center">
+<figure>
+	<a href="{{ site.url }}/images/event-trigger.PNG"><img src="{{ site.url }}/images/event-trigger.PNG" alt="event trigger"></a>
+	<figcaption>Button event trigger</figcaption>
+</figure>
+</div>
 
 ## Adding the instance of the script
 
+The final point is just a reminder to myself since I often forget.
 
-
-
+You need to add an instance of a script that you want to call and not the script itself.
+For example, you add the game object to the event trigger that your script is attached to, not just the script.
