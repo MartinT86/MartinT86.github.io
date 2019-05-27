@@ -23,7 +23,7 @@ Then drag any commonly used AWS services to the top of the screen;
 
 <div class="center">
 <figure>
-	<a href="{{ site.url }}/images/awsquicklinks/steptwo_1.png"><img src="{{ site.url }}/images/awsquicklinks/steptwo_1.png" alt="select the pin"></a>
+	<a href="{{ site.url }}/images/awsquicklinks/steptwo_1.png"><img src="{{ site.url }}/images/awsquicklinks/steptwo_1.png" alt="drag the services"></a>
 </figure>
 </div>
 
@@ -31,7 +31,7 @@ Once all the services you want are at the top of the screen, click the push pin 
 
 <div class="center">
 <figure>
-	<a href="{{ site.url }}/images/awsquicklinks/stepthree_1.png"><img src="{{ site.url }}/images/awsquicklinks/stepthree_1.png" alt="select the pin"></a>
+	<a href="{{ site.url }}/images/awsquicklinks/stepthree_1.PNG"><img src="{{ site.url }}/images/awsquicklinks/stepthree_1.PNG" alt="done!"></a>
 </figure>
 </div>
 
