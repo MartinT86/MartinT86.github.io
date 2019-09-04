@@ -71,7 +71,7 @@ Further refactoring should be done on this example, but by extracting the logic 
 
 If you have several groups of lines and they are sharing data, it might make sense to extract a class during your refactoring.
 
-Weirdly, I hear some people push back against this advice. I've heard comments like, "these functions are too small now" or "that's too many files in the project". For me, many small, well named, things are much easier to navigate my way around though.
+I have seen some push back against this advice. I've heard comments like, "these functions are too small now" or "that's too many files in the project". But for me, many small, well named things are much easier to navigate my way around though.
 
 I loved Martin Fowler's example of a small function though. In his book, Refactoring, he tells of the example from Smalltalk of a single line function called Highlight which only calls the function Reverse. While this is a single line function, it still made the code easier to understand. 
 
