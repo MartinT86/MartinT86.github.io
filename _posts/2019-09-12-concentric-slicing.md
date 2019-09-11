@@ -31,7 +31,7 @@ The issue I have with horizontal slicing is when it comes to releasing work and 
 
 <div class="center">
 <figure>
-	<a href="{{ site.url }}/images/concentricslicing/horizontal.png"><img src="{{ site.url }}/images/concentricslicing/horizontal.png" alt="horizontal slices"></a>
+	<a href="{{ site.url }}/images/concentricslicing/horizontal.PNG"><img src="{{ site.url }}/images/concentricslicing/horizontal.PNG" alt="horizontal slices"></a>
 	<figcaption>Example horizontal slices</figcaption>
 </figure>
 </div>
@@ -46,7 +46,7 @@ However, I do often face the questions, is it worth doing those first super thin
 
 <div class="center">
 <figure>
-	<a href="{{ site.url }}/images/concentricslicing/vertical.png"><img src="{{ site.url }}/images/concentricslicing/vertical.png" alt="vertical slices"></a>
+	<a href="{{ site.url }}/images/concentricslicing/vertical.PNG"><img src="{{ site.url }}/images/concentricslicing/vertical.PNG" alt="vertical slices"></a>
 	<figcaption>Example vertical slices</figcaption>
 </figure>
 </div>
@@ -69,7 +69,7 @@ This approach to story slicing can have huge benefits in a time pressured enviro
 
 <div class="center">
 <figure>
-	<a href="{{ site.url }}/images/concentricslicing/concentric.png"><img src="{{ site.url }}/images/concentricslicing/concentric.png" alt="concentric slices"></a>
+	<a href="{{ site.url }}/images/concentricslicing/concentric.PNG"><img src="{{ site.url }}/images/concentricslicing/concentric.PNG" alt="concentric slices"></a>
 	<figcaption>Example concentric slices</figcaption>
 </figure>
 </div>
