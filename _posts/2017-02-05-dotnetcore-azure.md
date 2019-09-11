@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.Net Core Azure"
 description: "Deploying an ASP.Net MVC app to Azure Web App"
-tags: [ASP.Net Core, Azure]
+tags: [ASP.NET Core, Azure]
 ---
 
 I'm a big fan of Azure and the Web Apps especially. I know how easy it is to deploy an ASP.Net or Node app.

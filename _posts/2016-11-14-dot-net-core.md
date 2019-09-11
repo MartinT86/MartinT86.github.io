@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ASP.NET Core MVC"
+title: "ASP.NET Core"
 description: "My first look at MVC in ASP.NET Core"
 tags: [.NET Core, ASP.NET Core, MVC]
 ---
