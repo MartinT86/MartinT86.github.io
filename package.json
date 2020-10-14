@@ -1,6 +1,7 @@
 {
   "name": "hpstr-theme",
   "author": "Michael Rose <michael@mademistakes.com>",
+  "scripts": { "start" : "bundle exec jekyll serve" },
   "homepage": "http://mmistakes.github.io/hpstr-jekyll-theme/",
   "repository": {
     "type": "git",
