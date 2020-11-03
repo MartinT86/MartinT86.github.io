@@ -5,15 +5,15 @@ description: "Unit tests should provide value for the whole team as living docum
 tags: [jest, unit tests, documentation]
 ---
 
-I don't think it's possible to overstate the importance of unit tests. Ideally they'd be created through following test driven development but that's a different issue. 
+I don't think it's possible to overstate the importance of unit tests. Ideally they'd be created through following test driven development but that's a whole different conversation. 
 
-By sharing your unit tests with your team, by using HTML reporters you can get even more value out of them as living documentation.
+But by sharing your unit tests with your team, through HTML reporters you can get even more value out of them as living documentation.
 
 ## What unit tests do
 
 A strong set of unit tests gives several huge benefits to a system.
 
-Tests that allow for small feedback loops while testing the whole system reduces the need for full manual regression tests for each code change. In turn, this increases the confidence that code changes won't break the system.
+For example, unit tests allow for small feedback loops of testing the whole system, reducing the need for full manual regression tests for each code change. In turn, this increases the confidence that code changes won't break the system.
 
 Similarly, refactoring would be very difficult without unit tests. Without your tests to rely on, you would be spending a lot of time manually testing your system after every code change.
 
@@ -21,9 +21,9 @@ A sometimes overlooked benefit of unit tests is the living documentation that th
 
 ## Living documentation
 
-Often, tacit knowledge and knowledge silos grow over time within a team.  
+Often, tacit knowledge and knowledge silos grow over time within a team. Moving that knowledge out the developer's head into a more public realm is hugely useful.
 
-Documentation is great, with one major caveat, when it is kept up to date. Keeping documentation up to date is easier said than done. For every change to the system, making sure it is reflected in the documentation can be a considerable overhead. Especially when changes need to be made quickly, this overhead is easily and often overlooked. Incorrect, or outdated documentation can be very damaging.
+Documentation is great, with one major caveat, only when it is kept up to date. Keeping documentation up to date is easier said than done. For every change to the system, making sure it is reflected in the documentation can be a considerable overhead. Especially when changes need to be made quickly, this overhead is easily and often overlooked. Incorrect, or outdated documentation can be very damaging.
 
 An ideal situation is where the documentation is based on the code itself. A strong set of tests that test the behaviour of a system can form living documentation. You should be able to read through your test suite and know exactly what the system does and how it will behave in various scenarios.
 
@@ -54,7 +54,7 @@ Then add the reporter to the list of reporters in the jest config, for example
         reporters: ["default","jest-stare"]
     };
 
-Once your tests have run, the reporter will output an overview of the tests to the default 
+Once your tests have run, the reporter will output an overview of the tests. 
 
 <div class="center">
 <figure>
@@ -62,3 +62,11 @@ Once your tests have run, the reporter will output an overview of the tests to t
 	<figcaption>Example html test report</figcaption>
 </figure>
 </div>
+
+## Collaboration
+
+So you've got your test suite, your tests are well named and test the behaviour of the system (not just a reflection of the code), and now you've got your nice html report for your tests. Make sure you use it!
+
+Share it with the wider team, ideally as part of your CI process. Maybe email it on each deployment? Maybe host the report somewhere so people can access it? However it would work for your team, but make sure all members of the team can see it some how.
+
+This effort of transparency of the system should give a lot of value. If anyone has any questions about what the system does, they now have living documentation they can refer to!
