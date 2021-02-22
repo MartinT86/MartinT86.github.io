@@ -2,7 +2,7 @@
 layout: post
 title: "Unit tests for the whole team"
 description: "Unit tests should provide value for the whole team as living documentation"
-tags: [jest, unit tests, documentation]
+tags: [jest, Unit Tests, documentation]
 ---
 
 I don't think it's possible to overstate the importance of unit tests. Ideally they'd be created through following test driven development but that's a whole different conversation. 
