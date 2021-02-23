@@ -9,6 +9,8 @@ Recently I've been thinking about XP practices, such as TDD, and why they aren't
 
 Luckily, the nice people at XP Manchester let me run a [5 Why's session](https://martint86.github.io/five-whys/) in order to crowd source some great ideas.
 
+Disclaimer: I've written up the session but in case I've remembered something incorrectly, I apologise to the group!
+
 ## What is Extreme Programming?
 
 Extreme programming is an agile methodology developed by Kent Beck. By taking practices that work well and taking them to the "extreme", software development teams can deliver quality software in challenging environments.
