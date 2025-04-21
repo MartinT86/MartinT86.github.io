@@ -43,12 +43,3 @@ When doing a kata, I like to take the practices to the extreme. For example, I f
 There are loads of ideas and variations of katas out there to try. Go give them a go, and remember, they are for practice and for fun, so think about your approach and enjoy them.
 
 Feel free to use my [blank kata template](https://github.com/MartinT86/ts-kata-blank) to get you started.
-
-
-
-
-
-link to blank kata
-
-
-
