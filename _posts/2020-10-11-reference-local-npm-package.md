@@ -2,7 +2,7 @@
 layout: post
 title: "Local npm package"
 description: "Reference local npm packages to help keep feedback loops smaller"
-tags: [node, npm]
+tags: [Node, npm]
 ---
 
 A small blog post just to serve as a reminder for myself (or anybody else) on how to reference local npm packages to help keep feedback loops small during development.
